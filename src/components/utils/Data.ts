@@ -64,7 +64,7 @@ export const projectCard: IProjectSectionCardData[] = [
     title: ' Niswarth',
     techStack: 'HTML, CSS, ReactJS',
     imageUrl: 'niswarth.png',
-    href: 'https://ngo-niswarth-ngo.vercel.app/',
+    href: 'https://ngo-niswarth-ngo.vercel.app',
   },
 ];
 

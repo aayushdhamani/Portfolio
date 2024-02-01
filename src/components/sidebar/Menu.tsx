@@ -58,7 +58,7 @@ const Menu: FC<MenuProps> = ({}) => {
       </List>
       <List
         target="_blank"
-        link="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
+        link=""
         effect="slideUp"
       >
         {/* <Youtube color="#e63946" /> Youtube
@@ -72,7 +72,7 @@ const Menu: FC<MenuProps> = ({}) => {
       </List>
       <List
         target="_blank"
-        link="https:www.linkedin.com/in/aayush-dhamani-077988287"
+        link="https://www.linkedin.com/in/aayush-dhamani-077988287/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin

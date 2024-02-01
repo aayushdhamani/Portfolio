@@ -18,7 +18,7 @@ const Cover: FC<CoverProps> = ({}) => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https:www.linkedin.com/in/aayush-dhamani-077988287"
+                            href="https://www.linkedin.com/in/aayush-dhamani-077988287"
                         >
                             <div className='text-3xl font-bold text-highlight'>FULL STACK DEVELOPER</div>
                         </Link>
