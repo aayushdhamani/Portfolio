@@ -61,7 +61,7 @@ const ContactForm: FC<ContactFormProps> = ({}) => {
                     <form
                         method="POST"
                         // onSubmit={handleSubmit}
-                        onClick={handleFormClick}
+                        // onClick={handleFormClick}
                         className="grid gap-5 w-96 p-5 bg-cardPrimary rounded-lg text-info shadow-lg relative"
                     >
                         <Label
@@ -90,7 +90,7 @@ const ContactForm: FC<ContactFormProps> = ({}) => {
                             sizes="medium"
                             className="w-full"
                         >
-                            {loader ? <Spinner /> : 'Submit'}
+                            Submit
                         </Button>
                     </form>
                 </div>
