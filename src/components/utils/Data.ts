@@ -34,15 +34,15 @@ export const projectCard: IProjectSectionCardData[] = [
     title: 'razorpay Clone',
     techStack: 'HTML, CSS, Tailwind,',
     imageUrl: 'razorpay.png',
-    href: 'https:razorpay-clone-red.vercel.app',
+    href: 'https://razorpay-clone-red.vercel.app',
   },
   {
     id: 2,
     title: 'StudyNotion',
     techStack:
       'HTML, Tailwind CSS, React, Javascript, Nodejs, ExpressJs, Moongoose, MongoDB',
-    imageUrl: 'studyNotion.png',
-    href: 'https://studynotion-frontend.vercel.app/',
+    imageUrl: 'studynotion.png',
+    href: 'https://studynotion-frontend.vercel.app',
   },
   {
     id: 3,
@@ -57,14 +57,14 @@ export const projectCard: IProjectSectionCardData[] = [
     title: ' RockAsia',
     techStack: 'HTML, CSS, ReactJS',
     imageUrl: 'rockasia.png',
-    href: 'https:rock-asia-1.vercel.app',
+    href: 'https://rock-asia-1.vercel.app',
   },
   {
     id: 4,
     title: ' Niswarth',
     techStack: 'HTML, CSS, ReactJS',
     imageUrl: 'niswarth.png',
-    href: 'https:ngo-niswarth-ngo.vercel.app/',
+    href: 'https://ngo-niswarth-ngo.vercel.app/',
   },
 ];
 
