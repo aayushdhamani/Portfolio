@@ -33,18 +33,16 @@ const Menu: FC<MenuProps> = ({}) => {
         <X className={`text-primary`} />
       </div>
       {/* List 1 */}
-      {/* <List link="/" effect="slideUp">
+      <List link="/" effect="slideUp">
         <Home /> Home
       </List>
-      <List link="/" effect="slideUp">
-        <Flame /> Trending
-      </List>
+      
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
+      <List link="/" effect="slideUp">
         <Video /> Videos
-      </List> */}
+      </List>
 
       {/* List 2 */}
       <div className="mt-5">Socials</div>
