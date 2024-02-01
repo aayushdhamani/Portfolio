@@ -27,29 +27,29 @@ const ContactForm: FC<ContactFormProps> = ({}) => {
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-        setLoader(true);
-        e.preventDefault();
-        const { name, email, message } = formData;
-        if (name && email && message) {
-            const triggerEmail = async () => {
-                const response = await fetch(
-                    `${process.env.NEXT_PUBLIC_EMAIL_ROUTE}`,
-                    {
-                        method: 'POST',
-                        body: JSON.stringify(formData),
-                    }
-                );
-                setLoader(false);
-                const result = await response.json();
-                if (result.status == 'ok') {
-                    toast.success('Thanks for your email!');
-                    setFormVisibility();
-                }
-            };
-            triggerEmail();
-        }
-    };
+    // const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    //     setLoader(true);
+    //     e.preventDefault();
+    //     const { name, email, message } = formData;
+    //     if (name && email && message) {
+    //         const triggerEmail = async () => {
+    //             const response = await fetch(
+    //                 `${process.env.NEXT_PUBLIC_EMAIL_ROUTE}`,
+    //                 {
+    //                     method: 'POST',
+    //                     body: JSON.stringify(formData),
+    //                 }
+    //             );
+    //             setLoader(false);
+    //             const result = await response.json();
+    //             if (result.status == 'ok') {
+    //                 toast.success('Thanks for your email!');
+    //                 setFormVisibility();
+    //             }
+    //         };
+    //         triggerEmail();
+    //     }
+    // };
     return (
         <>
             {showForm && (
