@@ -61,13 +61,7 @@ const Menu: FC<MenuProps> = ({}) => {
         link=""
         effect="slideUp"
       >
-        {/* <Youtube color="#e63946" /> Youtube
-      </List>
-      <List
-        target="_blank"
-        link="https://stackoverflow.com/users/20331641/neeraj-walia"
-        effect="slideUp"
-      > */}
+        
         <Layers color="#f77f00" /> Stack overflow
       </List>
       <List
