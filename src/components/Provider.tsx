@@ -53,8 +53,8 @@ export const MenuProvider: FC<MenuProviderProps> = ({ children }) => {
             : (document.body.style.overflow = 'auto');
     }, [showMenu]);
 
-    const showMenuVisibility = (status: boolean) => {
-        setShowMenu(status);
+    const showMenuVisibility = () => {
+        setShowMenu(!showMenu);  // Toggle the state or use your logic here
     };
     return (
         <MenuContext.Provider value={{ showMenu, showMenuVisibility }}>
