@@ -20,30 +20,30 @@ const TechStack: FC<TechStackProps> = ({}) => {
             'Javascript',
             'Typescript',
             'React Js',
-            'Next Js 13',
+            'bootstrap',
+            'Redux'
           ]}
         />
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'BUN Js', 'Elysia', 'Next Auth']}
+          tech={['Node Js', 'Express Js', 'RestAPI']}
         />
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MySql', 'MongoDB', 'PostgreSQL', 'Redis', 'Elastic Search']}
+          tech={['MySql', 'MongoDB', ]}
         />
-        <TechCard
-          title="Devops"
+       <TechCard
+          title="Others"
           classaName="bg-[#10c0a2]"
           tech={[
-            'Docker',
-            'Kubernetes',
-            'GIT',
-            'Jenkins',
-            'Ansible',
-            'Terraform',
-            'AWS',
+            'DSA',
+            'OOPS',
+            'GIT' ,
+            'DBMS',
+            'OS',
+            
           ]}
         />
       </div>

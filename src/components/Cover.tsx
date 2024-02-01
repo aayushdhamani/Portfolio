@@ -18,14 +18,9 @@ const Cover: FC<CoverProps> = ({}) => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https://instagram.com/ezSnippet"
+                            href="https:www.linkedin.com/in/aayush-dhamani-077988287"
                         >
-                            <Button variant="primary" sizes={'small'}>
-                                <Instagram />
-                                <span className="hidden md:block">
-                                    Follow me on Instagram
-                                </span>
-                            </Button>
+                            <div className='text-3xl font-bold text-highlight'>FULL STACK DEVELOPER</div>
                         </Link>
                     </div>
                 </div>

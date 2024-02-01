@@ -22,9 +22,11 @@ export default function Home() {
         {/* <Hero /> */}
         <ProjectCardSection title="Projects" data={projectCard} />
         <MoreProjects title="More projects" data={moreProjects} />
-
-        <CardSection title="Web3" data={web3Cards} />
-        <CardSection title="Others" data={otherCards} />
+        <CardSection title="Frontend" data={frontendCard} />
+        <CardSection title="Backend" data={backendCard} />
+                <CardSection title="Database" data={databaseCard} />
+                <CardSection title="Android Development" data={devopsCards} />
+                <CardSection title="Others" data={otherCards} />
       </div>
     </div>
   );

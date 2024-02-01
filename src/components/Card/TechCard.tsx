@@ -25,18 +25,22 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'Javascript' && 'border border-yellow-500/60',
               item === 'React Js' && 'border border-blue-500/60',
               item === 'Next Js 13' && 'border border-black/60',
+              item === 'bootstrap' && 'border border-red-500/60',
+              item === 'HTML' && 'border border-emerald-500/60',
               item === 'Node Js' && 'border border-green-500/60',
               item === 'Express Js' && 'border border-gray-500/60',
               item === 'MySql' && 'border border-blue-500/60',
               item === 'MongoDB' && 'border border-emerald-500/60',
               item === 'PostgreSQL' && 'border border-blue-500/60',
+              item === 'RestAPI' && 'border border-blue-500/60',
               item === 'Redis' && 'border border-red-500/60',
               item === 'Elastic Search' && 'border border-yellow-500/60',
-              item === 'Docker' && 'border border-blue-500/60',
-              item === 'Kubernetes' && 'border border-blue-500/60',
+              item === 'DSA' && 'border border-blue-500/60',
+              item === 'OOPS' && 'border border-blue-500/60',
               item === 'GIT' && 'border border-orange-500/60',
-              item === 'Terraform' && 'border border-purple-500/60',
-              item === 'AWS' && 'border border-yellow-500/60'
+              item === 'OS' && 'border border-purple-500/60',
+              item === 'AWS' && 'border border-yellow-500/60',
+              item === 'DBMS' && 'border border-red-500/60',
             )}
           >
             {item}

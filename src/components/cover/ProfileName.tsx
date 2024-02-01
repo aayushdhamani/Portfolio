@@ -8,8 +8,8 @@ interface ProfileNameProps {}
 const ProfileName: FC<ProfileNameProps> = ({}) => {
     return (
         <div className="text-3xl flex flex-col font-bold text-highlight">
-            Neeraj Walia
-            <div className="text-sm font-thin flex justify-between items-center">
+            Aayush Dhamani
+            {/* <div className="text-sm font-thin flex justify-between items-center">
                 @ezSnippet
                 <Link
                     className="block md:hidden"
@@ -20,7 +20,7 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
                         <Instagram />
                     </Button>
                 </Link>
-            </div>
+            </div> */}
         </div>
     );
 };
