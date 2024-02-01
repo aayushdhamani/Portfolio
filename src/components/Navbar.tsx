@@ -15,14 +15,10 @@ const Navbar: FC<NavbarProps> = ({}) => {
             {/* <SearchBar /> */}
             <div>{/* Place holder for search bar */}</div>
             <div className="flex items-center gap-5">
-                {/* <Button disabled onClick={setFormVisibility}>
+                <Button  onClick={setFormVisibility}>
                     Contact Me <User size={18} />
-                </Button> */}
-
-                <button
-                    onClick={() => showMenuVisibility(!showMenu)}
-                    type="button"
-                >
+                </Button>
+                <button onClick={showMenuVisibility} type="button">
                     <Menu className="flex lg:hidden cursor-pointer hover:text-primary transition-colors" />
                 </button>
             </div>
